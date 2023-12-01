@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Metadato -->
+		<meta charset="UTF-8">
+		<meta name="author" content="Stefany Vonder">
+		<meta name="description" content="Portafolio de desarrollo web de Stefany Vonder">
+		<meta name="keywords" content="HTML, CSS, JavaScript, React">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Titulo -->
+		<title>Stefany Vonder Proyecto Bootstrap5</title>
+		<!-- Favicon -->
+		<link rel="icon" type="image/x-icon" href="images/icon.png">
+		<!-- Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		<!-- Iconos de Bootstrap -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- Google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Quicksand:wght@500&family=Roboto+Condensed&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<!-- Barra de Navegacion -->
+		<nav class="navbar navbar-expand-md navbar-light">
+		  <div class="container-fluid">
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbar-toggler">
+		      <a class="navbar-brand" href="#">
+		      	<img class="rounded" src="images/icon.png" width="70" alt="Logo de la página web">
+		      </a>
+		      <ul class="navbar-nav d-flex justify-content-center align-items-start">
+		        <li class="nav-item">
+		          <a class="nav-link active raton" aria-current="page" href="#sobre-mi">Sobre mi</a>
+		        </li>
+		        <li class="nav-item raton">
+		          <a class="nav-link" href="#proyectos">Proyectos</a>
+		        </li>
+		        <li class="nav-item raton">
+		          <a class="nav-link" href="#testimonios">Testimonios</a>
+		        </li>
+		        <li class="nav-item raton">
+		          <a class="nav-link" href="#contacto">Contacto</a>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+
+		<!-- Seccion Hero -->
+		<section class="hero align-items-stretch seccion-clara degradado-radial2">
+			<div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+				<img class="hero-img-desarrollador" src="images/foto-removebg-preview-bg.jpg" alt="Foto Stefany Vonder">
+				<h1 class="sombra">Hola, soy Stefany Vonder</h1>
+				<h2>Desarrolladora Web y estudiante de Ingeniería informática</h2>
+			</div>
+			<div class="hero-inferior">
+				<img class="hero-inferior-imagen img-fluid rounded-bottom-2" src="images/imagen-frontal-caricatura-web-design-con-iconos-de-upscaled.png" alt="Monito, logos desarrollo front-end">
+			</div>
+		</section>
+
+		<!-- Sobre mi -->
+		<section id="sobre-mi" class="sobre-mi seccion-oscura">
+			<div class="contenedor">
+				<h2 class="seccion-titulo">Conoce a Stefany Vonder</h2>
+				<p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<div class="icono-volver-claro">
+					<a href="#">
+		      			<i class="bi bi-arrow-up"></i>
+		      		</a>
+		      	</div>
+			</div>
+		</section>
+
+		<!-- Experiencia -->
+		<section class="experiencia seccion-clara">
+			<div class="container text-center">
+				<div class="row">
+					<!-- Desarrollo Web -->
+					<div class="columna col-12 col-md-4">
+						<i class="bi bi-laptop"></i>
+						<p class="experiencia-titulo">Desarrollo Wed</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+						<div class="badges-contenedor">
+							<span class="badge bg-primary">HTML</span>
+							<span class="badge bg-primary">CSS</span>
+							<span class="badge bg-primary">JavaScript</span>
+							<span class="badge bg-primary">PHP</span>
+						</div>
+					</div class>
+					<!-- Articulos -->
+					<div class="columna col-12 col-md-4">
+						<i class="bi bi-laptop"></i>
+						<p class="experiencia-titulo">Articulos</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+						<div class="badges-contenedor">
+							<span class="badge bg-primary">Escribir</span>
+							<span class="badge bg-primary">Editar</span>
+							<span class="badge bg-primary">Blogs</span>
+						</div>
+					</div>
+					<!-- Estudiante -->
+					<div class="columna col-12 col-md-4">
+						<i class="bi bi-laptop"></i>
+						<p class="experiencia-titulo">Estudios</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+						<div class="badges-contenedor">
+							<span class="badge bg-primary">DAW</span>
+							<span class="badge bg-primary">Java</span>
+							<span class="badge bg-primary">Python</span>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+
+		<!-- Proyectos -->
+		<section id="proyectos" class="proyectos-recientes seccion-oscura d-flex flex-column">
+			<h2 class="seccion-titulo">Mis proyectos recientes</h2>
+			<h3 class="seccion-descripcion-oscura">Estos son algunos proyectos que he realizado recientemente</h3>
+			<!-- Galeria de proyectos -->
+			<div class="container text-center proyectos-contenedor">
+				<div class="row">
+
+					<!-- Proyecto 1 -->
+					<div class="col-12 col-md-6 col-lg-4 alinear-proyecto">
+						<div class="proyecto">
+							<img src="images/proyecto1.png" alt="Proyecto 1">
+							<div class="overlay">
+								<p>Proyecto 1</p>
+								<div class="iconos-contenedor">
+									<a href="https://github.com/estefa-C/geriGest.git" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-github"></i>
+									</a>
+									<a href="file:///C:/Users/fanfer/Desktop/proyUdemy/appCreditoHipotecario01/index.html" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-laptop"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Proyecto 2 -->
+					<div class="col-12 col-md-6 col-lg-4 alinear-proyecto">
+						<div class="proyecto">
+							<img src="images/proyecto2.avif" alt="Proyecto 2">
+							<div class="overlay">
+								<p>Proyecto 2</p>
+								<div class="iconos-contenedor">
+									<a href="https://github.com/estefa-C/geriGest.git" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-github"></i>
+									</a>
+									<a href="https://www.asesoria-madrid.org/" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-laptop"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Proyecto 3 -->
+					<div class="col-12 col-md-6 col-lg-4 alinear-proyecto">
+						<div class="proyecto">
+							<img src="images/proyecto3.jpg" alt="Proyecto 3">
+							<div class="overlay">
+								<p>Restaurante</p>
+								<div class="iconos-contenedor">
+									<a href="https://github.com/estefa-C/geriGest.git" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-github"></i>
+									</a>
+									<a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-laptop"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Proyecto 4 -->
+					<div class="col-12 col-md-6 col-lg-4 alinear-proyecto">
+						<div class="proyecto">
+							<img src="images/proyecto4.jpg" alt="Proyecto 4">
+							<div class="overlay">
+								<p>Asesoria</p>
+								<div class="iconos-contenedor">
+									<a href="https://github.com/estefa-C/geriGest.git" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-github"></i>
+									</a>
+									<a href="https://www.asesoria-madrid.org/" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-laptop"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Proyecto 5 -->
+					<div class="col-12 col-md-6 col-lg-4 alinear-proyecto">
+						<div class="proyecto">
+							<img src="images/proyecto5.jpg" alt="Proyecto 5">
+							<div class="overlay">
+								<p>Veterinaria</p>
+								<div class="iconos-contenedor">
+									<a href="https://github.com/estefa-C/geriGest.git" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-github"></i>
+									</a>
+									<a href="https://clinicaveterinariamadrid.es/" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-laptop"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Proyecto 6 -->
+					<div class="col-12 col-md-6 col-lg-4 alinear-proyecto">
+						<div class="proyecto">
+							<img src="images/proyecto6.jpg" alt="Proyecto 6">
+							<div class="overlay">
+								<p>Tienda Motos</p>
+								<div class="iconos-contenedor">
+									<a href="https://github.com/estefa-C/geriGest.git" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-github"></i>
+									</a>
+									<a href="https://www.kawasaki.es/es/products" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-laptop"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!-- Boton mas proyectos -->
+			<a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+				<button type="button" class="btn btn-info">
+			Ver más proyectos
+					<i class="bi bi-arrow-right-circle-fill"></i>
+				</button>
+			</a>
+			<div class="icono-volver-claro">
+				<a href="#">
+		     	 	<i class="bi bi-arrow-up"></i>
+		      	</a>
+		     </div>
+		</section> 
+
+		<!-- Testimonios -->
+		<section id="testimonios" class="testimonios seccion-clara">
+			<h2 class="seccion-titulo">Testimonios</h2>
+			<h3 class="seccion-descripcion-clara">Estos son algunos testimonios de mis clientes</h3>
+
+			<!-- Carrusel -->
+			<div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  			<div class="carousel-inner">
+    			<div class="carousel-item active">
+      			<div class="container">
+      				<img class="testimonio-imagen rounded-circle" src="images/testimonio1.jpg" alt="Foto cliente 1">
+      				<p class="testimonio-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione pariatur iste facere, assumenda dolore sint, corrupti sequi magni at consequuntur, aliquam cum.</p>
+      				<div class="testimonio-info">
+      					<p class="cliente">Cliente 1</p>
+      					<p class="cargo">Cargo del cliente 1</p>
+      				</div>
+      			</div>
+   				</div>
+    			<div class="carousel-item">
+      			<div class="container">
+      				<img class="testimonio-imagen rounded-circle" src="images/testimonio2.jpg" alt="Foto cliente 2">
+      				<p class="testimonio-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione pariatur iste facere, assumenda dolore sint, corrupti sequi magni at consequuntur, aliquam cum.</p>
+      				<div class="testimonio-info">
+      					<p class="cliente">Cliente 2</p>
+      					<p class="cargo">Cargo del cliente 2</p>
+      				</div>
+      			</div>
+    			</div>
+    			<div class="carousel-item">
+     			 <div class="container">
+      				<img class="testimonio-imagen rounded-circle" src="images/testimonio3.jpg" alt="Foto cliente 3">
+      				<p class="testimonio-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione pariatur iste facere, assumenda dolore sint, corrupti sequi magni at consequuntur, aliquam cum.</p>
+      				<div class="testimonio-info">
+      					<p class="cliente">Cliente 3</p>
+      					<p class="cargo">Cargo del cliente 3</p>
+      				</div>
+      			</div>
+   				</div>
+  			</div>
+  			<button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  			</button>
+ 			 	<button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  			</button>
+			</div>
+			<div class="icono-volver-oscuro">
+				<a href="#">
+		     	 	<i class="bi bi-arrow-up"></i>
+		      	</a>
+		     </div>
+		</section>
+		<!-- Recursos -->
+		<section class="articulos justify-content-start seccion-oscura">
+			<h2 class="seccion-titulo">Recursos y material recomendado</h2>
+			<h3 class="seccion-descripcion-oscura">¿Qué más deberías saber sobre la web?</h3>
+			<div class="card">
+	  			<div class="card-header">Artículos e información interesante</div>
+	 				<ul class="list-group list-group-flush">
+	 					<a href="https://luisperis.com/programar-wordpress-desde-cero/" target="_blank" rel="noopener noreferrer">
+	    				<li class="list-group-item list-group-item-action">¿Programar bajo Wordpress o desde cero? - Luis Peris</li>
+	    				</a>
+		    			<a href="https://www.solbyte.com/blog/la-importancia-de-la-velocidad-de-una-pagina-web/#%c2%bfcual-es-el-tiempo-optimo-de-velocidad-de-carga-de-una-pagina-web" target="_blank" rel="noopener noreferrer">
+		    				<li class="list-group-item">La importancia de la velocidad de una página web. - SOLBYTE servicios informáticos</li>
+		    			</a>
+		    			<a href="https://www.freecodecamp.org/news/" target="_blank" rel="noopener noreferrer">
+		    				<li class="list-group-item">El mundo digital necesita programadores</li>
+		    			</a>
+		    			<a href="https://www.freecodecamp.org/news/" target="_blank" rel="noopener noreferrer">
+		    				<li class="list-group-item">Herramientas de visualización de datos</li>
+		    			</a>
+		    			<a href="https://www.freecodecamp.org/news/" target="_blank" rel="noopener noreferrer">
+		    				<li class="list-group-item">Cómo trabajar en ciberseguridad: formación, habilidades y roles profesionales</li>
+		    			</a>
+		    			<a href="https://www.freecodecamp.org/news/" target="_blank" rel="noopener noreferrer">
+		    				<li class="list-group-item">¿Qué tipos de programadores existen? ¡Descubre cada perfil!</li>
+		    			</a>
+	  				</ul>
+			</div>
+
+			<div class="icono-volver-claro">
+				<a href="#">
+		     	 	<i class="bi bi-arrow-up"></i>
+		      	</a>
+		     </div>
+		</section>
+		<!-- Recurso en youtube -->
+		<section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+			<h2 class="seccion-titulo">Recursos en Youtube</h2>
+			<h3 class="seccion-descripcion-clara">Algunos de los mejores tutoriales sobre desarrollo web</h3>
+			<!-- Galeria de proyectos -->
+			<div class="container text-center proyectos-contenedor">
+				<div class="row">
+
+					<!-- Proyecto 1 -->
+					<div class="col-12 col-md-6 col-lg-4 alinear-proyecto">
+						<div class="proyecto">
+							<iframe width="330" height="180" src="https://www.youtube.com/embed/3nYLTiY5skU?si=dhVZt9M264FwnPen" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+							<div class="overlay">
+							</div>
+						</div>
+					</div>
+
+					<!-- Proyecto 2 -->
+					<div class="col-12 col-md-6 col-lg-4 alinear-proyecto">
+						<div class="proyecto">
+							<img src="images/proyecto2.avif" alt="Proyecto 2">
+							<div class="overlay">
+								<p>Proyecto 2</p>
+								<div class="iconos-contenedor">
+									<a href="https://github.com/estefa-C/geriGest.git" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-github"></i>
+									</a>
+									<a href="https://www.asesoria-madrid.org/" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-laptop"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Proyecto 3 -->
+					<div class="col-12 col-md-6 col-lg-4 alinear-proyecto">
+						<div class="proyecto">
+							<img src="images/proyecto3.jpg" alt="Proyecto 3">
+							<div class="overlay">
+								<p>Restaurante</p>
+								<div class="iconos-contenedor">
+									<a href="https://github.com/estefa-C/geriGest.git" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-github"></i>
+									</a>
+									<a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-laptop"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Proyecto 4 -->
+					<div class="col-12 col-md-6 col-lg-4 alinear-proyecto">
+						<div class="proyecto">
+							<img src="images/proyecto4.jpg" alt="Proyecto 4">
+							<div class="overlay">
+								<p>Asesoria</p>
+								<div class="iconos-contenedor">
+									<a href="https://github.com/estefa-C/geriGest.git" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-github"></i>
+									</a>
+									<a href="https://www.asesoria-madrid.org/" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-laptop"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Proyecto 5 -->
+					<div class="col-12 col-md-6 col-lg-4 alinear-proyecto">
+						<div class="proyecto">
+							<img src="images/proyecto5.jpg" alt="Proyecto 5">
+							<div class="overlay">
+								<p>Veterinaria</p>
+								<div class="iconos-contenedor">
+									<a href="https://github.com/estefa-C/geriGest.git" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-github"></i>
+									</a>
+									<a href="https://clinicaveterinariamadrid.es/" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-laptop"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Proyecto 6 -->
+					<div class="col-12 col-md-6 col-lg-4 alinear-proyecto">
+						<div class="proyecto">
+							<img src="images/proyecto6.jpg" alt="Proyecto 6">
+							<div class="overlay">
+								<p>Tienda Motos</p>
+								<div class="iconos-contenedor">
+									<a href="https://github.com/estefa-C/geriGest.git" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-github"></i>
+									</a>
+									<a href="https://www.kawasaki.es/es/products" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-laptop"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!-- Boton mas proyectos -->
+			<a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+				<button type="button" class="btn btn-info">
+			Ver más proyectos
+					<i class="bi bi-arrow-right-circle-fill"></i>
+				</button>
+			</a>
+			<div class="icono-volver-claro">
+				<a href="#">
+		     	 	<i class="bi bi-arrow-up"></i>
+		      	</a>
+		     </div>
+		</section> 
+
+		<!-- Contacto -->
+		<section id="contacto" class="contacto seccion-clara">
+			<div class="container">
+				<div class="container text-center rectangulo d-flex justify-content-evenly">
+					<div class="row">
+						<div class="col-12 col-md-4 seccion-titulo">
+							Hablemos
+						</div>
+						<div class="col-12 col-md-4 descripcion">
+							Contáctame para iniciar tu proyecto de desarrollo web.
+						</div>
+						<div class="col-12 col-md-4">
+							<a href="mailto:stefanyvonder@vonder.com">
+								<button type="button">
+									Contacto
+									<i class="bi bi-envelope-at-fill"></i>
+								</button>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Pie de pagina (footer) -->
+		<footer class="seccion-clara d-flex flex-column align-items-center justify-content-center">
+			<img class="footer-logo" src="images/icon.png" alt="Logo del portafolio">
+			<p class="footer-texto text-center">Aprendo y desarollo todos los días.<br></p>
+			<div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+				<a href="https://twee.com/" target="_blank" rel="noopener noreferrer">
+					<i class="bi bi-twitter"></i>
+				</a>
+				<a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+					<i class="bi bi-github"></i>
+				</a>
+				<a href="https://es.linkedin.com/?trk=guest_homepage-basic_nav-header-logo" target="_blank" rel="noopener noreferrer">
+					<i class="bi bi-linkedin"></i>
+				</a>
+				<a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+					<i class="bi bi-instagram"></i>
+				</a>
+				<a href="mailto:stefanyvonder@vonder.com" target="_blank" rel="noopener noreferrer">
+					<i class="bi bi-envelope"></i>
+				</a>
+			</div>
+			<div class="derechos-autor">Creado por Stefany Vonder (2023) 	&#174;</div>
+		</footer>
+
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	</body>
+</html>

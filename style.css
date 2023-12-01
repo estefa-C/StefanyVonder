@@ -1,0 +1,454 @@
+/*contantes de color*/
+:root {
+	--color-claro: #f5f6f7;
+	--color-oscuro: #1b1b32;
+}
+
+/* Barra de navegacion */
+.degradado-radial2{
+	background: radial-gradient( circle at 0% 100%, var(--color-oscuro) 10%, var(--color-claro) 30%);
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+.raton:hover {
+	border-radius: 5px;
+	 background-color: rgba(11, 11, 20, 0.1);
+	 transition: background-color 0.5s;
+}
+.navbar{
+	padding: 2rem;
+	background-color: var(--color-claro);
+
+}
+.navbar-collapse{
+	align-items: center;
+	justify-content: space-between;
+}
+/* Estilo Generales */
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+h1{
+	font-size: 2.5rem;
+	font-family: 'Rubik Dirt', cursive;
+}
+.seccion-oscura{
+	color: var(--color-claro);
+	background-color: var(--color-oscuro);
+}
+.seccion-clara{
+	color: var(--color-oscuro);
+	background-color: var(--color-claro);
+}
+.seccion-titulo{
+	font-size: 2rem;
+	padding: 15px 0;
+	font-family: 'Rubik Dirt', cursive;
+}
+.seccion-descripcion-clara{
+	font-size: 1.2rem;
+	color: var(--color-oscuro);
+}
+.seccion-descripcion-oscura{
+	font-size: 1.2rem;
+	color: var(--color-claro);
+}
+.seccion-texto{
+	font-size: 1.2rem;
+}
+.btn-info{
+	font-size: 1.1rem;
+	margin: 20px;
+}
+.sombra {
+	text-shadow:  #bfbae4 5px 0 10px;
+}
+
+/*icono regresar claro*/
+.icono-volver-claro{
+	display: flex;
+	justify-content: center;
+}
+.icono-volver-claro a{
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2px;
+	margin: 10px;
+	border: 2px solid white;
+	border-radius: 50%;
+	transition: all 0.2s ease-in;
+}
+.icono-volver-claro i{
+	color: var(--color-claro);
+	font-size: 1.5rem;
+	transition: all 0.2s ease-in;
+}
+.icono-volver-claro a:hover{
+	background-color: var(--color-claro);
+	
+}
+.icono-volver-claro a:hover i{
+	color: var(--color-oscuro);
+}
+
+/*icono-volver-oscuro*/
+.icono-volver-oscuro{
+	display: flex;
+	justify-content: left;
+}
+.icono-volver-oscuro a{
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2px;
+	margin: 10px;
+	border: 2px solid var(--color-oscuro);
+	border-radius: 50%;
+	transition: all 0.2s ease-in;
+}
+.icono-volver-oscuro i{
+	color: var(--color-oscuro);
+	font-size: 1.5rem;
+	transition: all 0.2s ease-in;
+}
+.icono-volver-oscuro a:hover{
+	background-color: var(--color-oscuro);
+	
+}
+.icono-volver-oscuro a:hover i{
+	color: var(--color-claro);
+}
+ /* Seccion Hero */
+ .hero{
+ 	min-height: 450px;
+ 	text-align: center;
+ }
+ .hero-principal{
+ 	padding: 3rem;
+ }
+ .hero-img-desarrollador{
+ 	width: 200px;
+ 	height: 200px;
+ 	/*border-radius: 50%;
+ 	margin: 20px;
+*/
+ }
+ .hero-principal h2{
+ 	font-size: 1.5rem;
+ 	color: #615151;
+ }
+ .hero-inferior-imagen{
+ 	width: 316px;
+ 	padding-bottom: 20px;
+/* 	height: 239px;*/
+ }
+
+/* Sobre mi*/
+.sobre-mi{
+	height: 500px;
+	padding: 10px;
+}
+.sobre-mi .contenedor{
+	max-width: 600px;
+	text-align: center;
+}
+
+/*Experiencia*/
+.experiencia{
+	padding: 40px 40px 60px 40px;
+}
+.experiencia .columna {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	transition: all 0.2s ease-in;
+}
+.experiencia .columna:hover {
+	color: var(--color-claro);
+	background-color: var(--color-oscuro);
+}
+.experiencia i{
+	font-size: 2.5rem;
+	color: #7ade30;
+	background-color: #0a0a23;
+	padding: 8px 19px;
+	border-radius: 50%;
+}
+.experiencia-titulo{
+	font-size: 25px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+.badges-contenedor{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+.badges {
+	margin: 5px;
+}
+
+/*Proyectos*/
+.proyectos-recientes{
+	padding: 40px;
+}
+.proyectos-recientes img{
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+	display: block;
+	transition: all 0.2s ease;
+}
+.proyectos-contenedor{
+	padding-top: 60px;
+	margin-bottom: 40px;
+}
+
+/*efecto a imagen y texto de imagen dentro del div proyecto*/
+.overlay{
+	transition: all 0.2s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.overlay p{
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.proyecto{
+	position: relative;
+}
+.proyecto:hover img{
+	opacity: 0.2;
+}
+.proyecto:hover .overlay{
+	opacity: 1;
+}
+.overlay .iconos-contenedor{
+	display: flex;
+}
+.overlay i {
+	color: var(--color-claro);
+	font-size: 60px;
+	margin: 10px;
+}
+/*prueva con class proyecto para ajustar imagenes*/
+.proyecto{
+	max-width: 330px;
+	height:196px;
+}
+
+/*Testimonios*/
+
+.testimonios{
+	padding: 40px 40px 80px 40px;
+}
+.testimonios .seccion-descripcion {
+	text-align: center;
+}
+/*medidas para igualar las imagenes*/
+.testimonios .carousel{
+	max-width: 800px;
+}
+.carousel-item{
+	height: 500px;
+}
+.carousel-item .container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.testimonio-imagen{
+	height: 150px;
+	width: 150px;
+	margin: 10px 10px 20px 10px;
+}
+.testimonio-texto{
+	max-width: 70%;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Share Tech Mono', monospace;
+}
+.testimonio-info{
+	font-weight: bold;
+	text-align: center;
+}
+.testimonio-info p{
+	margin-bottom: 0;
+}
+.testimonio-footer .cliente{
+	font-size: 1.2rem;
+}
+.testimonio-info .cargo{
+	font-size: 0.9rem;
+	color: #656060;
+}
+/*Recursos*/
+.articulos{
+	min-height: 600px;
+	padding-top: 40px;
+	padding-bottom: 90px;
+}
+
+.articulos .card{
+	min-width: 85%;
+	padding: 40px auto;
+	margin: 40px;
+}
+.card-header{
+	font-weight: bold;
+}
+
+/*Contacto*/
+.contacto .container{
+	min-width: 90%;
+	min-height: 200px;
+	padding: 40px 20px 20px 20px;
+}
+.contacto .rectangulo{
+	margin-top: -5rem;
+	background-color: rgb(13, 110, 253);
+	border-radius: 10px;
+	box-shadow: 0px 1px 4px 1px white;
+}
+.contacto .row{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.contacto .descripcion{
+	color: var(--color-claro);
+	font-size: 1.2rem;
+}
+
+.contacto button{
+	color: var(--color-claro);
+	font-weight: bold;
+	background-color: transparent;
+	border: 2px solid var(--color-claro);
+	padding: 1.25em 2em;
+	margin: 10px;
+	border-radius: 100px;
+	transition: all 0.2s ease-in-out;
+}
+.contacto button:hover{
+	background-color: var(--color-claro);
+	color: var(--color-oscuro);
+}
+.contacto button i{
+	color: white;
+	font-size: 1.3rem;
+	transition: all 0.2s ease-in-out;
+}
+.contacto button:hover i{
+	color: black;
+}
+
+/*Pie de pagina (footer)*/
+footer {
+	min-height: 400px;
+}
+.footer-logo{
+	height: 80px;
+	width: 80px;
+	margin: 10px;
+	border-radius: 120px;
+}
+.footer-texto{
+	font-size: 1.5rem;
+	padding: ;
+	margin-bottom: 30px;
+	font-family: 'Quicksand', sans-serif;
+}
+.iconos-redes-sociales a{
+	color: var(--color-oscuro);
+	background-color: var(--color-oscuro);
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2px;
+	margin: 10px;
+	border: 2px solid var(--color-oscuro);
+	border-radius: 50%;
+	transition: all 0.2s ease-in;
+	
+}
+.iconos-redes-sociales i{
+	color: white;
+	font-size: 1.5rem;
+	transition: all 0.2s ease-in;
+}
+.iconos-redes-sociales a:hover{
+	background-color: var(--color-claro);
+	
+}
+.iconos-redes-sociales a:hover i{
+	color: var(--color-oscuro);
+}
+.derechos-autor{
+	font-size: 15px;
+	color: #aeaeae;
+	padding: 20px;
+}
+
+/* Adaptable Responsivo*/
+@media screen and (max-width: 767px) {
+	.alinear-proyecto{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	}
+}
+@media screen and (max-width: 800px) {
+	.testimonio-imagen{
+		height: 120px;
+		width: 120px;
+	}
+	.testimonio-texto{
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 400px){
+	.overlay p{
+		font-size: 18px;
+	}
+	.overlay i {
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 767px){ /*a partir de aqui para abajo no se va a mostrar*/
+	.navbar-brand{
+		display: none;
+	}
+}
+
+@media screen and (min-width: 700px){ /*a partir de estos px se aplica el max-width*/
+	.hero-inferior-imagen{
+		max-width: 600px;
+
+	}
+}
+
